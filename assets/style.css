@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 320px;
+  margin: 0 auto;
+  font: 16px/1.5 'Helvetica Neue', arial, sans-serif;
+  color: #333;
+  text-align: center;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.menu {
+  position: relative;
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px dashed #d2d2d2;
+  border-radius: 4px;
+  text-align: left;
+}
+.menu h2 {
+  float: left;
+  margin-right: 20px;
+  color: #eee;
+  font-size: 66px;
+}
+.menu h3 {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  color: red;
+  font-size: 26px;
+}
+
+.oper {
+  height: 30px;
+  margin-top: 15px;
+}
+.oper select {
+  float: left;
+}
+.oper a {
+  float: right;
+  line-height: 1;
+}
