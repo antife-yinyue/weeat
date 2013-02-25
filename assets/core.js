@@ -71,7 +71,7 @@ function callback(data, baseMoment) {
 }
 
 $(function() {
-  var file = 'menus/' + current.year() + '-' + (current.month() + 1) + '.json'
+  var file = 'menus/' + current.format('YYYY-MM') + '.json'
   var data
 
   $.getJSON(file, function(res) {
